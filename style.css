@@ -28,7 +28,7 @@ body {
 .hero {
   grid-area: hero;
 
-  height: 91vh;
+  height: 90vh;
   width: 100%;
   /* background: url(./logo/hero.jpg) no-repeat center;
   background-size: cover; */
@@ -56,7 +56,7 @@ body {
 
   border-radius: 10px;
   top: 30vh;
-  left: 35%;
+  left: 30%;
 }
 
 .header {
@@ -85,14 +85,13 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 2rem;
+  font-size: 1.8rem;
   list-style: none;
 }
 
 ul > li {
   margin: 20px;
   color: rgb(231, 219, 219);
- 
 }
 
 .logo {
@@ -121,7 +120,7 @@ ul > li {
   grid-area: r_1;
   border-right: 2px solid black;
   height: 400px;
-  margin: 150px 30px 0 100px;
+  margin: 150px 30px 0 90px;
   color: rgb(18, 17, 17);
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   display: flex;
@@ -152,7 +151,7 @@ ul > li {
 .review_3 {
   grid-area: r_3;
   border-bottom: 2px solid black;
-  margin: 150px 40px 0 30px;
+  margin: 150px 30px 0 30px;
   height: 400px;
   width: 400px;
   padding: 40px 0 0 0;
@@ -182,7 +181,7 @@ ul > li {
 }
 
 .des > p {
-  width: 600px;
+  width: 450px;
 
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 1.5rem;
@@ -190,16 +189,16 @@ ul > li {
 }
 
 .des > h1 {
-  width: 600px;
+  width: 450px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 3rem;
+  font-size: 2.5rem;
   padding: 10px;
   margin: 30px 0 0 0;
 }
 
 .menu_photo {
-  width: 600px;
-  height: 500px;
+  width: 450px;
+  height: 400px;
 }
 
 .menu_photo > img {
@@ -221,7 +220,7 @@ button {
 .btn_1 {
   display: block;
 
-  margin: 0 0 20px 83%;
+  margin: 0 0 20px 75%;
 }
 
 .special {
@@ -242,9 +241,6 @@ button:hover {
 }
 
 li:hover {
-  border-bottom:2px solid white;
-  cursor:default;
-  
+  border-bottom: 2px solid white;
+  cursor: default;
 }
-
-
