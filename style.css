@@ -40,7 +40,7 @@ body {
   height: 100%;
   object-fit: cover;
 
-  filter: brightness(50%);
+  filter: blur(10px) brightness(60%);
 }
 .hero h1 {
   padding: 5px;
@@ -49,6 +49,7 @@ body {
   position: absolute;
   /* background-color: rgba(255, 255, 255, 0.104); */
   width: 650px;
+  align-items: center;
   backdrop-filter: blur(5px);
   text-shadow: 5px 8px 40px rgb(244, 240, 240);
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -56,7 +57,7 @@ body {
 
   border-radius: 10px;
   top: 30vh;
-  left: 27%;
+  left: 35vw;
 }
 
 .header {
@@ -120,7 +121,7 @@ ul > li {
   grid-area: r_1;
   border-right: 2px solid black;
   height: 400px;
-  margin: 150px 30px 0 90px;
+  margin: 150px 30px 0 150px;
   color: rgb(18, 17, 17);
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   display: flex;
@@ -168,8 +169,7 @@ ul > li {
   grid-area: men;
   margin-top: 200px;
   background: radial-gradient(
-    rgba(111, 75, 55, 50%) 40%,
-    rgba(62, 53, 51, 50%) 95%
+    rgba(111, 75, 55, 60%) 10%, rgba(62, 53, 51, 50%) 90%
   );
   padding: 40px;
 }
@@ -181,7 +181,7 @@ ul > li {
 }
 
 .des > p {
-  width: 450px;
+  width: 650px;
 
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 1.5rem;
@@ -189,7 +189,7 @@ ul > li {
 }
 
 .des > h1 {
-  width: 450px;
+  width: 650px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 2.5rem;
   padding: 10px;
@@ -197,8 +197,8 @@ ul > li {
 }
 
 .menu_photo {
-  width: 450px;
-  height: 400px;
+  width: 650px;
+  height: 450px;
 }
 
 .menu_photo > img {
@@ -220,7 +220,7 @@ button {
 .btn_1 {
   display: block;
 
-  margin: 0 0 20px 75%;
+  margin: 0 0 20px 83%;
 }
 
 .special {
