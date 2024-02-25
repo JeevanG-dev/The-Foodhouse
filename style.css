@@ -13,7 +13,7 @@ body {
 }
 .wrapper {
   display: grid;
-
+  position: relative;
   grid-template-areas:
     "hero hero hero"
     "he he he"
@@ -28,12 +28,12 @@ body {
 .hero {
   grid-area: hero;
 
-  height: 90vh;
+  height: 88vh;
   width: 100%;
   /* background: url(./logo/hero.jpg) no-repeat center;
   background-size: cover; */
 
-  position: relative;
+  /* position: relative; */
 }
 .hero video {
   width: 100%;
@@ -57,7 +57,7 @@ body {
 
   border-radius: 10px;
   top: 30vh;
-  left: 35vw;
+  left: 30vw;
 }
 
 .header {
@@ -121,7 +121,7 @@ ul > li {
   grid-area: r_1;
   border-right: 2px solid black;
   height: 400px;
-  margin: 150px 30px 0 150px;
+  margin: 150px 30px 0 90px;
   color: rgb(18, 17, 17);
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   display: flex;
@@ -152,7 +152,7 @@ ul > li {
 .review_3 {
   grid-area: r_3;
   border-bottom: 2px solid black;
-  margin: 150px 30px 0 30px;
+  margin: 150px 70px 0 30px;
   height: 400px;
   width: 400px;
   padding: 40px 0 0 0;
@@ -167,21 +167,22 @@ ul > li {
 }
 .menu {
   grid-area: men;
-  margin-top: 200px;
+  margin-top: 150px;
   background: radial-gradient(
-    rgba(111, 75, 55, 60%) 10%, rgba(62, 53, 51, 50%) 90%
+    rgba(111, 75, 55, 60%) 10%,
+    rgba(62, 53, 51, 50%) 90%
   );
   padding: 40px;
 }
 
 .menu_flex {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
 .des > p {
-  width: 650px;
+  width: 500px;
 
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 1.5rem;
@@ -189,7 +190,7 @@ ul > li {
 }
 
 .des > h1 {
-  width: 650px;
+  width: 550px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 2.5rem;
   padding: 10px;
@@ -197,7 +198,7 @@ ul > li {
 }
 
 .menu_photo {
-  width: 650px;
+  width: 500px;
   height: 450px;
 }
 
@@ -220,19 +221,68 @@ button {
 .btn_1 {
   display: block;
 
-  margin: 0 0 20px 83%;
+  margin: 0 0 20px 73%;
 }
 
 .special {
   grid-area: special;
+  margin: 100px 0 100px 0;
+  border-top: 3px dotted black;
+  padding-top: 30px;
+}
+.special > .offer_h1 {
+  text-align: center;
 }
 
+.special_item {
+  width: 33%;
+}
+.special_btn {
+  width: 150px;
+  margin: 0 0 0 29%;
+}
+.special_img {
+  width: 90%;
+  object-fit: cover;
+  box-shadow: 0px 20px 20px 0.5px rgba(0, 0, 0, 0.452);
+  border-radius: 55%;
+
+  margin: 0 0 60px 10px;
+}
+
+.special_img > img {
+  width: 100%;
+  object-fit: cover;
+  animation: infinite linear 5s animi;
+}
 .media {
   grid-area: media;
+  background-color: white;
+  height: 15rem;
+}
+.media_inside {
+  width: 70%;
+  margin: 0 auto;
+  padding: 20px;
+}
+.media_inside h1,
+.media_inside p {
+  padding: 10px;
 }
 
+.social p,
+.social a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: black;
+}
 footer {
   grid-area: footer;
+  background-color: black;
+  height: 6rem;
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
 }
 
 button:hover {
@@ -243,4 +293,13 @@ button:hover {
 li:hover {
   border-bottom: 2px solid white;
   cursor: default;
+}
+
+@keyframes animi {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
