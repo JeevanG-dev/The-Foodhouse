@@ -1,6 +1,9 @@
+
+
 * {
   margin: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -11,20 +14,16 @@ body {
   width: 85%;
   margin: 0 auto;
 }
-.wrapper {
+.grid {
   display: grid;
-  position: relative;
-  grid-template-areas:
-    "hero hero hero"
-    "he he he"
-    "li li li"
-    "r_1 r_p r_3"
-    "men men men"
-    "special special special"
-    "media media media"
-    "footer footer footer";
+ 
+ 
 }
 
+
+.reviews{
+  grid-template-areas: "r_1 r_p r_3"
+}
 .hero {
   grid-area: hero;
 
@@ -61,13 +60,13 @@ body {
 }
 
 .header {
-  grid-area: he;
+  
   border-top: 2px solid black;
-  width: 100%;
+  width: 100vw;
   box-shadow: 0px -25px 80px 1px black;
   /* background-color: rgb(120, 86, 68); */
   backdrop-filter: blur(10px);
-
+  z-index: 2;
   position: sticky;
 
   justify-content: center;
@@ -111,7 +110,7 @@ ul > li {
 
 .line {
   grid-area: li;
-  width: 100%;
+  width: 100vw;
   height: 10px;
   background-color: white;
   box-shadow: 1px 30px 60px 10px white;
@@ -166,48 +165,80 @@ ul > li {
   margin: 40px;
 }
 .menu {
-  grid-area: men;
-  margin-top: 150px;
-  background: radial-gradient(
-    rgba(111, 75, 55, 60%) 10%,
-    rgba(62, 53, 51, 50%) 90%
-  );
+width: 100vw;
+  margin-top: 250px;
+  background-color: rgba(171, 140, 121, 0.684);
   padding: 40px;
+ 
 }
 
 .menu_flex {
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+justify-content: space-between;
+ 
 }
-
-.des > p {
-  width: 500px;
+.menu_lunch{
+  display: flex;
+  align-items: flex-start;
+}
+.des1 > p {
+margin-right:49px;
 
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 1.5rem;
   padding-bottom: 30px;
 }
 
-.des > h1 {
-  width: 550px;
+.des1 > h1 {
+ 
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 2.5rem;
+  padding: 10px;
+  margin: 0px 0 0 0;
+}
+
+.des2 > p {
+
+
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.5rem;
+  padding-bottom: 30px;
+}
+
+.des2 > h1 {
+
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 2.5rem;
   padding: 10px;
   margin: 30px 0 0 0;
 }
 
-.menu_photo {
+.menu_photo1 {
   width: 500px;
   height: 450px;
+position: relative;
+  
 }
 
-.menu_photo > img {
+.menu_photo2 {
+  width: 500px;
+  height: 50px;
+}
+
+.menu_img1 {
   width: 100%;
-  height: 100%;
+height: 100%;
   object-fit: cover;
+  position: absolute;
+  bottom: 100px;
 }
-
+.menu_img2 {
+  width: 500px;
+  height: 450px;
+  object-fit: cover;
+  position: relative;
+  top: 100px;
+}
 button {
   padding: 10px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -221,12 +252,12 @@ button {
 .btn_1 {
   display: block;
 
-  margin: 0 0 20px 73%;
+  margin: 0 0 0 75%;
 }
 
 .special {
   grid-area: special;
-  margin: 100px 0 100px 0;
+  margin: 200px 0 100px 0;
   border-top: 3px dotted black;
   padding-top: 30px;
 }
@@ -292,7 +323,9 @@ button:hover {
 
 li:hover {
   border-bottom: 2px solid white;
-  cursor: default;
+  cursor:pointer;
+  transform: scale(1.05);
+  transition: all ease 0.3s;
 }
 
 @keyframes animi {
