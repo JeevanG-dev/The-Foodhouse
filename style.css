@@ -389,7 +389,7 @@ li:hover {
     border-right: none;
     border-top: 2px solid rgb(255, 255, 255);
     height: 200px;
-    margin: 150px 30px 0 50px;
+    margin: 150px  0 0 0;
     color: rgb(18, 17, 17);
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
       sans-serif;
@@ -424,7 +424,7 @@ li:hover {
   .review_3 {
     grid-area: r_3;
     border-bottom: 2px solid rgb(255, 255, 255);
-    margin: 0 0 0 60px;
+    margin: 0 0 0 0;
     height: 320px;
     width: 400px;
     padding: 40px 0 0 0;
@@ -454,7 +454,7 @@ li:hover {
     display: flex;
   }
   .des1 > p {
-   margin-left: 40px;
+
   width: 300px;
   height: 200px;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -467,13 +467,13 @@ li:hover {
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
     font-size: 2rem;
     padding: 10px;
-    margin: 0px 0 0 70px;
+    margin: 0px 0 0 25px;
     width: 100vw;
    
   }
   
   .des2 > p {
-    margin-left: 40px;
+
     width: 300px;
     height: 200px;
       font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -484,7 +484,7 @@ li:hover {
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
     font-size: 2rem;
     padding: 10px;
-    margin: 5px 0 0 58px;
+    margin: 5px 0 0 25px;
     width: 100vw;
   }
   
@@ -493,7 +493,7 @@ li:hover {
     height: 250px;
     top: 100px;
     border-radius: 30px;
-   margin-left: 38px;
+
   
   }
   
@@ -521,7 +521,7 @@ li:hover {
     height: 250px;
     top: 100px;
     border-radius: 30px;
-   margin-left: 38px;
+ 
    grid-area: m_P;
   
   }
@@ -548,13 +548,13 @@ li:hover {
     background-color: rgba(111, 75, 55, 68%);
     color: white;
     border: 2px solid white;
-    margin: 0 0 0 140px;
+    margin: 0 0 0 100px;
     
   }
   .btn_1 {
     display: block;
   
-    margin: 0 0 0 140px;
+    margin: 0 0 0 100px;
   }
   .special {
     margin: 200px 0 100px 0;
