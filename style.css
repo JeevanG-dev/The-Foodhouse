@@ -19,12 +19,12 @@ body {
   grid-template-areas: "r_1 r_p r_3";
 }
 .hero {
-  height: 88vh;
+  height: 100vh;
   width: 100vw;
   /* background: url(./logo/hero.jpg) no-repeat center;
   background-size: cover; */
 
-  /* position: relative; */
+  position: relative;
 }
 .hero video {
   width: 100%;
@@ -59,7 +59,7 @@ body {
   /* background-color: rgb(120, 86, 68); */
   backdrop-filter: blur(10px);
   z-index: 2;
-  position: sticky;
+  position: fixed;
 
   justify-content: center;
 
@@ -154,7 +154,7 @@ ul > li {
   display: none;
 }
 
-body,
+
 .wrapper {
   overflow-x: hidden;
 }
@@ -384,7 +384,7 @@ li:hover {
   }
   .review_1 > h2 {
     font-size: 2rem;
-    color: rgba(255, 255, 255, 0.709);
+    color: rgba(255, 255, 255, 0.929);
   }
 
   .review_photo {
@@ -421,7 +421,7 @@ li:hover {
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
       sans-serif;
     width: 300px;
-    color: rgba(255, 255, 255, 0.709);
+    color: rgba(255, 255, 255, 0.871);
   }
   .menu {
     width: 100vw;
