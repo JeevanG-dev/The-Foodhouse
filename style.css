@@ -1,7 +1,6 @@
 * {
   margin: 0;
   box-sizing: border-box;
- 
 }
 
 body {
@@ -102,7 +101,6 @@ ul > li {
 }
 
 .line {
-
   width: 100vw;
   height: 10px;
   background-color: white;
@@ -151,11 +149,13 @@ ul > li {
   overflow: scroll;
   scrollbar-width: none;
 }
-#label, #ham{
+#label,
+#ham {
   display: none;
 }
 
-.wrapper{
+body,
+.wrapper {
   overflow-x: hidden;
 }
 .review_3 p {
@@ -273,18 +273,17 @@ button {
   margin: 0 0 60px 10px;
 }
 
-
 .special_img > img {
   width: 100%;
   object-fit: cover;
   animation: infinite linear 5s animi;
 }
-.special_img2>img{
+.special_img2 > img {
   width: 100%;
   object-fit: cover;
   animation: infinite linear 5s animi;
- }
- .special_img2{
+}
+.special_img2 {
   width: 90%;
   object-fit: cover;
   box-shadow: 0px 20px 20px 0.5px rgba(0, 0, 0, 0.452);
@@ -307,16 +306,14 @@ button {
   padding: 10px;
 }
 
-
 .social a {
   font-size: 1.5rem;
   text-decoration: none;
   color: black;
 }
 footer {
-
   background-color: black;
- 
+
   color: white;
   font-size: 1.5rem;
   text-align: center;
@@ -358,22 +355,8 @@ li:hover {
     background: url(./logo/logp.jpg) no-repeat center;
     background-size: cover;
   }
-  .header {
-    border-top: 2px solid black;
-    width: 100vw;
-    box-shadow: 0px -25px 80px 1px black;
-    /* background-color: rgb(120, 86, 68); */
-    backdrop-filter: blur(10px);
-    z-index: 2;
-    position: sticky;
-
-    justify-content: center;
-
-    top: 0px;
-  }
 
   .line {
-
     width: 100vw;
     height: 10px;
     background-color: white;
@@ -389,7 +372,7 @@ li:hover {
     border-right: none;
     border-top: 2px solid rgb(255, 255, 255);
     height: 200px;
-    margin: 150px  0 0 0;
+    margin: 150px 0 0 10px;
     color: rgb(18, 17, 17);
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
       sans-serif;
@@ -424,7 +407,7 @@ li:hover {
   .review_3 {
     grid-area: r_3;
     border-bottom: 2px solid rgb(255, 255, 255);
-    margin: 0 0 0 0;
+    margin: 0 0 0 10px;
     height: 320px;
     width: 400px;
     padding: 40px 0 0 0;
@@ -437,9 +420,8 @@ li:hover {
     font-size: 1.3rem;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
       sans-serif;
-      width: 300px;
+    width: 300px;
     color: rgba(255, 255, 255, 0.709);
-    
   }
   .menu {
     width: 100vw;
@@ -448,222 +430,207 @@ li:hover {
     background: rgba(0, 0, 0, 0.321);
     padding: 40px;
   }
-  
-  
+
   .menu_lunch {
     display: flex;
   }
   .des1 > p {
-
-  width: 300px;
-  height: 200px;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    width: 300px;
+    height: 200px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
     font-size: 1rem;
-   
-    
   }
-  
+
   .des1 > h1 {
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
     font-size: 2rem;
     padding: 10px;
     margin: 0px 0 0 25px;
     width: 100vw;
-   
   }
-  
-  .des2 > p {
 
+  .des2 > p {
     width: 300px;
     height: 200px;
-      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-      font-size: 1rem;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-size: 1rem;
   }
-  
+
   .des2 > h1 {
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
     font-size: 2rem;
     padding: 10px;
-    margin: 5px 0 0 25px;
+    margin: 5px 0 0 10px;
     width: 100vw;
   }
-  
+
   .menu_photo1 {
     width: 300px;
     height: 250px;
     top: 100px;
     border-radius: 30px;
-
-  
   }
-  
-  .brk_menu{
+
+  .brk_menu {
     display: grid;
-    grid-template-areas: 
-    "m_P"
-    "d2"
-    "btn"
-    ;
-    
+    grid-template-areas:
+      "m_P"
+      "d2"
+      "btn";
   }
 
-  .des2{
+  .des2 {
     grid-area: d2;
     margin-top: 100px;
   }
 
-  .btn_1{
+  .btn_1 {
     grid-area: btn;
-
   }
   .menu_photo2 {
     width: 300px;
     height: 250px;
     top: 100px;
     border-radius: 30px;
- 
-   grid-area: m_P;
-  
+
+    grid-area: m_P;
   }
-  
+
   .menu_img1 {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 30px;
-   
   }
   .menu_img2 {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 30px;
-   
   }
   button {
     padding: 10px;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
     font-size: 1rem;
     border-radius: 10px;
     background-color: rgba(111, 75, 55, 68%);
     color: white;
     border: 2px solid white;
-    margin: 0 0 0 100px;
-    
+    margin: 30px 0 0 100px;
   }
   .btn_1 {
     display: block;
-  
-    margin: 0 0 0 100px;
+
+    margin: 32px 0 0 100px;
   }
   .special {
-    margin: 200px 0 100px 0;
+    margin: 100px 0 100px 0;
     border-top: 3px dotted black;
     padding-top: 30px;
   }
   .special > .offer_h1 {
     text-align: center;
-    color:rgba(255, 255, 255, 0.709) ;
+    color: rgba(255, 255, 255, 0.709);
   }
-  
+
   .special_item {
     width: 33%;
   }
   .special_btn {
     width: 100px;
-    margin: 0 0 0 26%;
+    margin: 0 0 0 10%;
     font-size: small;
   }
- .special_img2>img{
-  width: 100%;
+  .special_img2 > img {
+    width: 100%;
 
-
-  object-fit: cover;
+    object-fit: cover;
     animation: infinite linear 5s animi;
- }
- .special_img2{
-  width: 90%;
- 
-  object-fit: cover;
-  box-shadow: 0px 20px 20px 0.5px rgba(0, 0, 0, 0.452);
-  border-radius: 55%;
+  }
+  .special_img2 {
+    width: 90%;
 
-  margin: 0 0 56px 10px;
-}
+    object-fit: cover;
+    box-shadow: 0px 20px 20px 0.5px rgba(0, 0, 0, 0.452);
+    border-radius: 55%;
+
+    margin: 0 0 56px 10px;
+  }
   .special_img {
     width: 90%;
     object-fit: cover;
     box-shadow: 0px 20px 20px 0.5px rgba(0, 0, 0, 0.452);
     border-radius: 55%;
-  
+
     margin: 0 0 60px 10px;
   }
-  
+
   .special_img > img {
     width: 100%;
     object-fit: cover;
     animation: infinite linear 5s animi;
   }
-    .media_inside{
-      display: flex;
-    }
-    .media {
-      grid-area: media;
-      background-color: white;
+  .media_inside {
+    display: flex;
+  }
+  .media {
+    grid-area: media;
+    background-color: white;
+    height: 300px;
+  }
+  .media_inside {
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px 0 0 0;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .media_inside h1,
+  .media_inside p {
+    padding: 5px;
+  }
+  .media_inside h1 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
 
-    }
-    .media_inside {
-      width: 70%;
-      margin: 0 auto;
-      padding: 20px 0 0 0;
-      justify-content: space-between;
-      gap: 10px;
-    }
-    .media_inside h1,
-    .media_inside p {
-      padding: 5px;
-    }
-    .media_inside h1{
-      font-size: 1.5rem;
-      margin-bottom: 20px;
-  
-    }
-    
-    .social a {
-      font-size: 1.5rem;
-      text-decoration: none;
-      color: black;
-    }
-    ul{
- font-size: 1.5rem;
+  .social a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: black;
+  }
+  ul {
+    font-size: 1.5rem;
 
- flex-direction: column;
-      position: absolute;
- height: 100vh;
-      align-items: flex-start;
-      top: 100px;
-      background: rgba(4, 0, 0, 0.835);
-padding: 10px 0 0 0;
+    flex-direction: column;
+    position: absolute;
+    height: 100vh;
+    align-items: flex-start;
+    top: 90px;
+    background: rgba(4, 0, 0, 0.835);
+    padding: 10px 0 0 0;
     justify-content: flex-start;
-      width: 200px;
-      list-style: none;
-      left: 100vw;
-      transition: all 1.3s;
-   
-    }
+    width: 200px;
+    list-style: none;
+    left: 100vw;
+    transition: all 1.3s;
+  }
 
-    #ham{
-      display: none;
-    }
-    #label{
-      font-size: 2rem;
-      color: white;
-      display: block;
-    }
+  #ham {
+    display: none;
+  }
+  #label {
+    font-size: 2rem;
+    color: white;
+    display: block;
+  }
 
-    #ham:checked + ul{
-      left: calc(100vw - 200px);
-    }
+  #ham:checked + ul {
+    left: calc(100vw - 200px);
+  }
 }
-
-
