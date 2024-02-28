@@ -359,7 +359,7 @@ li:hover {
       sans-serif;
     text-align: center;
     
-width: 200px;
+width: 300px;
     text-shadow: 3px 4px 40px rgb(227, 214, 214);
   }
   .review_1 > h2 {
@@ -381,8 +381,8 @@ width: 200px;
     grid-area: r_3;
     border-bottom: 2px solid rgb(255, 255, 255);
   
-    height: 380px;
-    width: 200px;
+    height: 320px;
+    width: 300px;
     overflow: scroll;
     scrollbar-width: none;
     scroll-behavior: smooth;
@@ -405,8 +405,8 @@ width: 200px;
 
   .menu_flex {
     display: flex;
-   gap: 0;
-align-items: center;
+
+
 
     flex-direction: column;
 
@@ -446,7 +446,7 @@ align-items: center;
       sans-serif;
     font-size: 2rem;
     padding: 10px;
-    margin: 5px 0 0 0px;
+    margin: 260px 0 0 0px;
     width: 100vw;
   }
 
@@ -455,14 +455,15 @@ align-items: center;
     height: 250px;
     top: 100px;
     border-radius: 30px;
+
   }
 
   .brk_menu {
     display: grid;
-    grid-template-areas:
+    /* grid-template-areas:
       "m_P"
       "d2"
-      "btn";
+      "btn"; */
   }
 
   .des2 {
@@ -470,9 +471,7 @@ align-items: center;
     margin-top: 100px;
   }
 
-  .btn_1 {
-    grid-area: btn;
-  }
+  
   .menu_photo2 {
     width: 300px;
     height: 250px;
@@ -487,12 +486,14 @@ align-items: center;
     height: 100%;
     object-fit: cover;
     border-radius: 30px;
+    right: 12px;
   }
   .menu_img2 {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 30px;
+    right: 12px;
   }
   button {
     padding: 10px;
@@ -503,12 +504,12 @@ align-items: center;
     background-color: rgba(111, 75, 55, 68%);
     color: white;
     border: 2px solid white;
-    margin: 30px 0 0 100px;
+    margin: 30px 0 0 60px;
   }
   .btn_1 {
-    display: block;
 
-    margin: 32px 0 0 100px;
+
+    margin: 32px 0 0 60px;
   }
   .special {
     margin: 100px 0 100px 0;
@@ -529,22 +530,21 @@ align-items: center;
     font-size: small;
   }
   .special_img2 > img {
-    width: 100%;
+    width: 97%;
 
     object-fit: cover;
     animation: infinite linear 5s animi;
   }
   .special_img2 {
-    width: 90%;
+    width: 100%;
 
     object-fit: cover;
     box-shadow: 0px 20px 20px 0.5px rgba(0, 0, 0, 0.452);
     border-radius: 55%;
-
-    margin: 0 0 56px 10px;
+  
   }
   .special_img {
-    width: 90%;
+    width: 100%;
     object-fit: cover;
     box-shadow: 0px 20px 20px 0.5px rgba(0, 0, 0, 0.452);
     border-radius: 55%;
