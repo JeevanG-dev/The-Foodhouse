@@ -189,8 +189,6 @@ ul > li {
   width: 500px;
 }
 
-
-
 .menu_photo1 {
   width: 500px;
   height: 450px;
@@ -332,18 +330,10 @@ li:hover {
   body {
     background-color: rgba(4, 0, 0, 0.835);
   }
-  .hero h1 {
-    display: none;
-  }
 
-  .hero video {
-    display: none;
-  }
   .hero {
     background: url(./logo/logp.jpg) no-repeat center;
     background-size: cover;
- 
-    
   }
 
   .reviews {
@@ -351,7 +341,6 @@ li:hover {
     flex-direction: column;
   }
   .review_1 {
-
     border-right: none;
     border-top: 2px solid rgb(255, 255, 255);
     height: 200px;
@@ -360,8 +349,8 @@ li:hover {
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
       sans-serif;
     text-align: center;
-    
-width: 300px;
+
+    width: 300px;
     text-shadow: 3px 4px 40px rgb(227, 214, 214);
   }
   .review_1 > h2 {
@@ -370,19 +359,17 @@ width: 300px;
   }
 
   .review_photo {
-  
     display: none;
   }
 
   .review_photo > img {
-   
     display: none;
   }
 
   .review_3 {
     grid-area: r_3;
     border-bottom: 2px solid rgb(255, 255, 255);
-  
+
     height: 320px;
     width: 300px;
     overflow: scroll;
@@ -394,11 +381,10 @@ width: 300px;
     font-size: 1rem;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
       sans-serif;
- 
+
     color: rgba(255, 255, 255, 0.871);
   }
   .menu {
-
     margin-top: 150px;
     color: white;
     background: rgba(0, 0, 0, 0.321);
@@ -408,16 +394,12 @@ width: 300px;
   .menu_flex {
     display: flex;
 
-
-
     flex-direction: column;
-
- 
   }
 
-.lunch_menu{
+  .lunch_menu {
     display: flex;
-   
+
     width: 300px;
     overflow: hidden;
   }
@@ -427,6 +409,7 @@ width: 300px;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
       sans-serif;
     font-size: 1rem;
+    margin-left: 10px;
   }
 
   .des1 > h1 {
@@ -434,8 +417,7 @@ width: 300px;
       sans-serif;
     font-size: 2rem;
     padding: 10px 0;
-
-
+    margin-left: 25px;
   }
 
   .des2 > p {
@@ -444,6 +426,7 @@ width: 300px;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
       sans-serif;
     font-size: 1rem;
+    margin-left: 10px;
   }
 
   .des2 > h1 {
@@ -451,7 +434,7 @@ width: 300px;
       sans-serif;
     font-size: 2rem;
     padding: 10px;
-    margin: 100px 0 0 0px;
+    margin: 100px 0 0 15px;
     width: 300px;
   }
 
@@ -460,7 +443,6 @@ width: 300px;
     height: 250px;
     top: 100px;
     border-radius: 30px;
-
   }
 
   .brk_menu {
@@ -470,25 +452,22 @@ width: 300px;
       "d2"
       "btn";
 
-     
-      position: static;
-    }
+    position: static;
   }
 
   .des2 {
     grid-area: d2;
- width: 300px;
-  
-  overflow: hidden;
+    width: 300px;
+
+    overflow: hidden;
   }
 
-  
   .menu_photo2 {
     width: 300px;
     height: 250px;
 
     border-radius: 30px;
-position: static;
+    position: static;
 
     grid-area: m_P;
   }
@@ -498,14 +477,12 @@ position: static;
     height: 100%;
     object-fit: cover;
     border-radius: 30px;
-
   }
   .menu_img2 {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 30px;
-
   }
   button {
     padding: 10px;
@@ -516,12 +493,10 @@ position: static;
     background-color: rgba(111, 75, 55, 68%);
     color: white;
     border: 2px solid white;
-    margin: 30px 0 0 60px;
+    margin: 30px 0 0 90px;
   }
   .btn_1 {
-
-width: 100px;
-    margin: 32px 0 0px 60px;
+    margin: 32px 0 0px 90px;
   }
   .special {
     margin: 100px 0 100px 0;
@@ -553,7 +528,6 @@ width: 100px;
     object-fit: cover;
     box-shadow: 0px 20px 20px 0.5px rgba(0, 0, 0, 0.452);
     border-radius: 55%;
-  
   }
   .special_img {
     width: 100%;
@@ -574,7 +548,6 @@ width: 100px;
   }
   .media {
     background-color: white;
- 
   }
   .media_inside {
     width: 70%;
