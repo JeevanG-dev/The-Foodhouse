@@ -8,7 +8,9 @@ html {
 }
 
 body {
-  background-color: rgba(48, 29, 18, 0.808);
+  background: url(./logo/back.jpg) no-repeat center;
+  backdrop-filter: brightness(0.5);
+  color: white;
 }
 
 .container {
@@ -35,9 +37,6 @@ body {
   backdrop-filter: blur(10px);
   z-index: 2;
   position: fixed;
-
-  justify-content: center;
-
   top: 0px;
 }
 
@@ -87,7 +86,6 @@ a {
   border-right: 2px solid black;
   height: 400px;
 
-  color: rgb(18, 17, 17);
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   display: flex;
   justify-content: center;
@@ -233,7 +231,7 @@ button {
 
 .special {
   margin: 200px 0 100px 0;
-  border-top: 3px dotted black;
+  border-top: 3px dotted white;
   padding-top: 30px;
 }
 
@@ -255,7 +253,7 @@ button {
 .special_img {
   width: 90%;
   object-fit: cover;
-  box-shadow: 0px 20px 20px 0.5px rgba(0, 0, 0, 0.452);
+
   border-radius: 55%;
 
   margin: 0 0 60px 10px;
@@ -264,23 +262,24 @@ button {
 .special_img > img {
   width: 100%;
   object-fit: cover;
-  animation: infinite linear 5s animi;
+  animation: infinite linear 10s animi;
 }
 .special_img2 > img {
   width: 98%;
   object-fit: cover;
-  animation: infinite linear 5s animi;
+  animation: infinite linear 10s animi;
 }
 .special_img2 {
   width: 90%;
   object-fit: cover;
-  box-shadow: 0px 20px 20px 0.5px rgba(0, 0, 0, 0.452);
+
   border-radius: 55%;
 
   margin: 0 0 60px 10px;
 }
 .media {
   background-color: white;
+  color: black;
 }
 .media_inside {
   padding: 20px;
