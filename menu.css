@@ -19,7 +19,7 @@ body {
 body {
   background: url(./logo/back.jpg) no-repeat center;
   background-size: cover;
-  height: 100vh;
+
   backdrop-filter: brightness(50%);
 }
 
@@ -69,7 +69,7 @@ a {
 .wrapper {
   background: #000000bc;
   width: 90%;
-  height: 70%;
+  height: 100vh;
   margin: 0 auto;
   margin-top: 20px;
   border-radius: 60px;
@@ -93,9 +93,10 @@ a {
 .menu {
   padding: 10px;
   display: flex;
+justify-content: center;
   flex-wrap: wrap;
   overflow-x: scroll;
-  max-width: 1400px;
+
   gap: 10px;
   /* background: red; */
 }
