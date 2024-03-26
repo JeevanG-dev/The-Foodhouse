@@ -27,6 +27,7 @@ body {
   background-size: cover;
   backdrop-filter: blur(5px);
   box-shadow: 0px 4px 60px 2px brown;
+  background-attachment: fixed;
 }
 
 .header {
@@ -35,9 +36,10 @@ body {
   box-shadow: 0px -25px 80px 1px black;
   /* background-color: rgb(120, 86, 68); */
   backdrop-filter: blur(10px);
-  z-index: 2;
+
   position: fixed;
-  top: 0px;
+  z-index: 1;
+  top: -2px;
 }
 
 .nav {
@@ -127,6 +129,7 @@ a {
 
 .wrapper {
   overflow-x: hidden;
+  position: relative;
 }
 .review_3 p {
   font-size: 1.5rem;
