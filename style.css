@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  background: url(./logo/back.jpg) no-repeat center;
+  background:rgba(165, 42, 42, 0.798);
   backdrop-filter: brightness(0.5);
   color: white;
 }
@@ -38,7 +38,7 @@ body {
   backdrop-filter: blur(10px);
 
   position: fixed;
-  z-index: 1;
+  z-index: 2;
   top: -2px;
 }
 

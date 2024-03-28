@@ -178,4 +178,6 @@ html {
     transform: scale(1.05);
     transition: all ease 0.3s;
   }
-  
+#label,#ham{
+display: none;
+}  
